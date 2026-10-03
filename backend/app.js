@@ -8,10 +8,10 @@ app.use(express.json()); // Middleware to parse JSON bodies
 
 // MySQL Connection Configuration
 const db = mysql.createConnection({
-    host: '127.0.0.1',
-    port: 3306, // Default MySQL port
+    host: 'localhost',
+    port: 3300, // Default MySQL port
     user: 'root', // Replace with your MySQL username
-    password: 'axyzaxyzv@ndit14', // Replace with your MySQL password
+    password: 'Password', // Replace with your MySQL password
     database: 'company'
 });
 
